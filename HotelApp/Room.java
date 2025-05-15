@@ -31,7 +31,7 @@ public class Room {
         boolean isInvalid = roomType.trim().isEmpty();
         if(isInvalid){throw new IllegalArgumentException("invalid room type");}
         return true;
-    }
+    } 
 
     public boolean validatePrice(Double price){
         boolean isInvalid = price < 0;
